@@ -38,7 +38,7 @@ void main() {
     // When no frequency is provided the default 15 minutes is set.
     // Minimum frequency is 15 min.
     // Android will automatically change your frequency to 15 min if you have configured a lower frequency than 15 minutes.
-    frequency: Duration(minutes: 15), // change duration according to your needs
+    frequency: Duration(days: 7), // change duration according to your needs
   );
 
   runApp(MyApp());
